@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Page2</title>
+</head>
+<body>
+	<script>
+		console.log("opener :", window.opener.document.location)
+		const opener_document = window.opener.document
+		opener_document.location = "https://google.fr"
+	</script>
+</body>
+</html>
